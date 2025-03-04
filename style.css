@@ -3,12 +3,12 @@
     margin: 0;
 }
 
-main {
+.main {
     background-image: url(assets/images/bg.jpg);
     height: 80%;
 }
 
-main.box {
+.main.box {
     height: 80%;
     width: 100%;
     opacity: 0.44;
