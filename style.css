@@ -12,7 +12,7 @@
     position: relative;
 }
 
-.main.box {
+.main .box {
     height: 80%;
     width: 100%;
     opacity: 0.44;
