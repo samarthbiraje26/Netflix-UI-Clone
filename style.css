@@ -196,3 +196,31 @@ section.first > div :nth-child(2) {
   margin: 30px auto;
   cursor: pointer;
 }
+
+footer {
+  color: white;
+  max-width: 60%;
+  margin: auto;
+  padding: 34px;
+}
+
+footer .questions {
+  padding: 34px 0;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  font-size: 14px;
+}
+
+.footer-item {
+  display: flex;
+  gap: 23px;
+  flex-direction: column;
+}
