@@ -215,8 +215,13 @@ footer .questions {
   color: white;
 }
 
-@media screen and (max-width: 500){
-  .first {
+@media screen and (max-width: 1300px){
+
+  nav {
+    max-width: 900%;
+  }
+
+  first {
     flex-wrap: wrap;
   }  
 
@@ -227,13 +232,42 @@ footer .questions {
   .secImg video {
     width: 305px;
   }
-}
 
-@media screen and (max-width: 1300px){
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: white;
+  .hero > :nth-child(1) {
+    font-size: 32px;
+  }
+
+  .hero > :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .hero > :nth-child(3) {
+    font-size: 18px;
+  }
+
+  main input {
+    padding: 7px 53px 8px 14px;
+  }
+
+  .hero -buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .faq h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  footer {
+    max-width: 90%;
+  }
+
+  .footer-item {
+    align-items: center;
   }
 }
 
