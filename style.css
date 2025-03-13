@@ -132,6 +132,7 @@ nav button {
   margin: auto;
   color: white;
   align-items: center;
+  justify-content: center;
 }
 
 .secImg {
@@ -212,6 +213,28 @@ footer .questions {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
+}
+
+@media screen and (max-width: 500){
+  .first {
+    flex-wrap: wrap;
+  }  
+
+  .secImg img {
+    width: 305px;
+  }  
+
+  .secImg video {
+    width: 305px;
+  }
+}
+
+@media screen and (max-width: 1300px){
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+  }
 }
 
 .footer a {
